@@ -1,8 +1,6 @@
 # house-price-prediction-flask
 A Flask-based web application that predicts house prices using a machine learning model. The app takes input features like the number of bedrooms, bathrooms, square footage, and location, and returns an estimated house price. Built with Flask, Scikit-Learn, Pandas, and NumPy.
 
-Here’s a **detailed, modern, and well-structured README** for your **House Price Prediction App** with clear documentation, setup steps, and usage details. 🚀  
-
 ---
 
 # 🏡 **House Price Prediction App**  
