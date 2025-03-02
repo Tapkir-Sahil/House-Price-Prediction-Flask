@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url('/static/backgrounds.JPG') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  width: 350px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: rgb(42, 2, 94);
+  margin-bottom: 10px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+input, select {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(25, 2, 31);
+}
+
+button {
+  background: rgba(50, 2, 67, 0.7);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgb(109, 49, 106);
+}
+
+.switch-field {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+input[type="radio"]:checked + label {
+  background: rgba(50, 2, 67, 0.7);
+}
+
+select {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(25, 2, 31); /* Keeps the selected option visible */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  appearance: none; /* Removes default browser styling */
+}
+
+/* Ensure dropdown options are visible */
+select option {
+  background: rgba(0, 0, 0, 0.7); /* Dark background */
+  color: white; /* Light text */
+}
