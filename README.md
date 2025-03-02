@@ -26,7 +26,7 @@ This is the input form where users enter the property details.
 
 ### 🔵 **After Estimation**  
 After clicking **Estimate Price**, the predicted price is displayed.  
-![After Estimation](docs/C_After%20Estimation.PNGC_After_Estimation.png)  
+![After Estimation](docs/C_After%20Estimation.PNG)  
 
 ---
 
@@ -108,18 +108,3 @@ python app.py
 ✅ **Deployment** – Flask Web Server  
 
 ---
-
-## 🏆 **Future Improvements**  
-
-🔹 **Enhance UI/UX** – Make the interface more interactive.  
-🔹 **Add More Features** – Consider additional filters (e.g., property type).  
-🔹 **Deploy Online** – Host the application on **Heroku, AWS, or Render**.  
-
----
-
-## 📜 **License**  
-This project is licensed under the **MIT License**.  
-
----
-
-This README is **detailed, modern, and structured** for **maximum clarity** on GitHub! 🚀 Let me know if you need any edits! 😃
