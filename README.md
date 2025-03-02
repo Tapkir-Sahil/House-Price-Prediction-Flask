@@ -22,11 +22,11 @@ This is a **Flask-based web application** that predicts house prices based on us
 
 ### 🟢 **Before Estimation**  
 This is the input form where users enter the property details.  
-![Before Estimation](C_Before%20Estimation.png)  
+![Before Estimation](docs/C_Before%20Estimation.png)  
 
 ### 🔵 **After Estimation**  
 After clicking **Estimate Price**, the predicted price is displayed.  
-![After Estimation](C_After%20Estimation.PNG)  
+![After Estimation](docs/C_After%20Estimation.PNGC_After_Estimation.png)  
 
 ---
 
