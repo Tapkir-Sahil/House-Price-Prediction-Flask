@@ -3,7 +3,7 @@ A Flask-based web application that predicts house prices using a machine learnin
 
 ---
 
-# 🏡 **House Price Prediction App**  
+# 🏡 **House Price Prediction Using Flask**  
 
 ## 📌 **Overview**  
 This is a **Flask-based web application** that predicts house prices based on user inputs such as square footage, number of bedrooms (BHK), bathrooms, and location.  
