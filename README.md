@@ -39,7 +39,7 @@ Ensure you have the following installed on your system:
 
 1️⃣ **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/house-price-prediction.git
+   git clone https://github.com/Tapkir-Sahil/House-Price-Prediction-Flask.git
    cd house-price-prediction
    ```  
 
@@ -74,16 +74,21 @@ python app.py
 
 ## 📂 **Project Structure**  
 ```
-├── app.py               # Flask backend (API)
-├── templates/
-│   ├── index.html       # Frontend UI
-├── static/
-│   ├── styles.css       # CSS styles
-├── dataset.csv          # Dataset used for training
-├── ml_pipeline.ipynb    # Jupyter Notebook for ML model training
-├── util.py              # Utility functions
-├── requirements.txt     # List of dependencies
-└── README.md            # Documentation
+├📂 Project Root
+ ┣ 📂 docs                # Screenshots & documentation
+ ┣ 📂 model               # Stores ML model & feature columns
+ ┃ ┣ 📄 model.pickle      # Trained ML model
+ ┃ ┗ 📄 feature_columns.json # Feature names used in the model
+ ┣ 📂 static              # CSS, JS, images
+ ┣ 📂 templates           # HTML files
+ ┣ 📄 app.py              # Flask backend
+ ┣ 📄 dataset.csv         # House Prediction Data
+ ┣ 📄 ml_pipeline.ipynb   # ML model training
+ ┣ 📄 util.py             # Utility functions
+ ┣ 📄 README.md           # Project documentation
+ ┣ 📄 .gitignore          # Ignored files
+ ┗ 📄 requirements.txt    # Required dependencies
+
 ```
 
 ---
@@ -92,7 +97,7 @@ python app.py
 
 1️⃣ **User enters property details** – Square feet, BHK, bathrooms, and location.  
 2️⃣ **Flask API processes the data** – It sends input to the trained ML model.  
-3️⃣ **ML Model predicts the price** – The model calculates an estimated price.  
+3️⃣ **ML Model predicts the price** – The model calculates an estimated price using Linear Regression.  
 4️⃣ **Result is displayed on UI** – The predicted price appears on the webpage.  
 
 ---
@@ -101,8 +106,14 @@ python app.py
 
 ✅ **Backend** – Flask (Python)  
 ✅ **Frontend** – HTML, CSS, JavaScript  
-✅ **Machine Learning** – Scikit-learn, Pandas, NumPy  
+✅ **Machine Learning** – Scikit-learn, Pandas, NumPy, Matplotlib  
 ✅ **Data Processing** – Pandas, NumPy  
 ✅ **Deployment** – Flask Web Server  
+
+---
+
+🏆 Future Improvements
+🔹 Enhance UI/UX – Make the interface more interactive.
+🔹 Deploy Online – Host the application on Heroku, AWS, or Render.
 
 ---
