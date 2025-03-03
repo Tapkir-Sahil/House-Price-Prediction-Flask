@@ -114,7 +114,7 @@ python app.py
 
 ## 🏆 **Future Improvements**
 
-🔹 Enhance UI/UX – Make the interface more interactive.
-🔹 Deploy Online – Host the application on Heroku, AWS, or Render.
+🔹 **Enhance UI/UX** – Make the interface more interactive.
+🔹 **Deploy Online** – Host the application on Heroku, AWS, or Render.
 
 ---
